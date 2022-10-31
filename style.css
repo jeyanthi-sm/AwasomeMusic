@@ -1,0 +1,133 @@
+body{
+    display: flex;
+    flex-direction: column; 
+}
+
+img{
+    width:150px;
+    height:auto;
+}
+
+.header3{
+    color: #f9faf8;
+    font-weight: bolder;
+    font-size: 48px;
+  
+}
+.head3txt {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.header2 {
+  display: flex;
+  background-color: #1F2937;
+  padding: 5px;
+  gap:10px;
+  margin: 0px;
+  justify-content: space-around;
+}
+
+.imgpic {
+    display: flex;
+}
+.header, .footer {
+  background-color: #1F2937;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #f9faf8;
+}
+.footer {
+
+    font-size: 15px;
+    justify-content: center;
+}
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    margin: 20px;
+    padding:20px;
+}
+
+ul {
+    display: flex;
+    gap:20px;
+    list-style-type: none;
+    margin: 20px;
+    padding:20px;
+}
+
+li{
+   text-decoration: none;
+   color: #efe7eb;
+   font-size: 18px;
+}
+.Basic {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 25px;
+    color: maroon;
+    gap:200px;
+    margin: 20px;
+    padding:20px;   
+}
+.Basic > div {
+    outline-color: black;
+    outline-width: 5px;
+    padding:20px;
+    margin: 20px;
+    outline-style:solid;     
+}
+
+.Quotes {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: 1F2937;
+    gap:10px;
+    margin: 0px;
+    padding:10px;
+}
+.author{
+    background-color: #e5e7eb;
+    font-size: 24px;
+    align-self: flex-end;
+}
+
+.Action {
+    display: flex;
+    background-color: #3882f6;
+    margin: 50px;
+    padding: 40px;
+    justify-content: space-between;
+
+}
+.acthead{
+    font-size: 30px;
+    font-weight: bold;
+}
+.acttxt{
+    font-size: 24px;
+    font-weight: normal;
+}
+
+button {
+    background-color: #3882f6;
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+.signup {
+    display: flex;
+    color: white;
+    font-family: Roboto, sans-serif;
+    border-color: white;
+    border:25px;
+    border-radius: 8px;
+    outline-style:auto;
+    margin: 10px;
+    padding: 8px 16px;
+}
