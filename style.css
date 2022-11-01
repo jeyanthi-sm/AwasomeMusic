@@ -71,6 +71,8 @@ li{
     margin: 20px;
     padding:20px;   
 }
+
+
 .Basic > div {
     outline-color: black;
     outline-width: 5px;
@@ -131,3 +133,13 @@ button {
     margin: 10px;
     padding: 8px 16px;
 }
+a {
+    color: #f9faf8;
+    text-decoration: none;
+  }
+
+  .sarali  {
+     color: rgb(10, 10, 10); 
+     text-decoration-color: black;
+   
+  }
